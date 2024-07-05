@@ -1,0 +1,17 @@
+[package]
+authors = ["Jason McNeil <jason@mcneil.dev>"]
+description = "Macro to convert a struct into an imhex pattern"
+edition = "2021"
+keywords = ["struct", "imhex", "pattern"]
+license = "MIT"
+name = "struct-as-imhex-pattern"
+repository = "https://github.com/bitnixdev/as-imhex-pattern"
+version = "0.1.0"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1"
+quote = "1"
+syn = "2"
